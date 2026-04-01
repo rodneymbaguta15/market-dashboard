@@ -32,5 +32,5 @@ build/
 ### VS Code ###
 .vscode/
 
-
+#Environment variables
 .env  //for storing API keys and other sensitive information, do not commit this file to version control
