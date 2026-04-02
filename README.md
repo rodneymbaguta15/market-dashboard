@@ -8,8 +8,10 @@ API docs: coming soon
 Crypto Tab
 ![Crypto Page](frontend/public/cryptotable.png)
 
-Stock Tab 
+Stock Search Tab 
 ![Stock Page](frontend/public/stocksearch.png)
+
+Stock Quote Tab
 ![Stock Quote](frontend/public/stockquote.png)
 
 
