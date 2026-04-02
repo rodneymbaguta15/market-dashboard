@@ -36,10 +36,10 @@ Stock Quote Tab
 
 
 ## API Endpoints
-GET /api/crypto/top?limit=10  Top N coins by market cap with 10 as a default limit
-GET /api/crypto/{coinId}     Single coin detail by CoinGecko ID (eg: bitcoin, ethereum)
-GET /api/stocks/quote/{symbol}   Real-time global quote (eg: AAPL, MSFT)
-GET /api/stocks/search?q={keyword} Symbol search by company name or ticker
+- **GET /api/crypto/top?limit=10**  Top N coins by market cap with 10 as a default limit
+- **GET /api/crypto/{coinId}**    Single coin detail by CoinGecko ID (eg: bitcoin, ethereum)
+- **GET /api/stocks/quote/{symbol}**   Real-time global quote (eg: AAPL, MSFT)
+- **GET /api/stocks/search?q={keyword}** Symbol search by company name or ticker
 
 
 
