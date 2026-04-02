@@ -10,7 +10,7 @@ Crypto Tab
 
 Stock Tab 
 ![Stock Page](frontend/public/stocksearch.png)
-![Crypto Page](frontend/public/stockquote.png)
+![Stock Quote](frontend/public/stockquote.png)
 
 
 
