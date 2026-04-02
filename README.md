@@ -33,29 +33,7 @@ Stock Quote Tab
 - **External APIs**: CoinGecko for Crypto, Alpha Vantage free API Key for stocks
 - **API Docs**: Springdoc OpenAPI
 
-## Project Structure
-market-dashboard/
-├── backend/
-│   ├── pom.xml
-│   └── src/main/
-│       ├── resources/
-│       │   └── application.properties
-│       └── java/com/market_dashboard/
-│           ├── MarketDashboardApplication.java
-│           ├── config/         AppConfig.java (CORS, RestTemplate, CacheManager)
-│           ├── model/          CryptoSummary.java · StockQuote.java
-│           │                   StockSearchResult.java · ApiResponse.java
-|           |dto/               CryptoDTO.java 
-│           ├── service/        CryptoService.java · StockService.java
-│           └── controller/     CryptoController.java · StockController.java
-|           |exception/         GlobalExceptionHandler.java
-└── frontend/
-    ├── index.html
-    ├── vite.config.js          (proxy /api → :8080)
-    └── src/
-        ├── api/        marketApi.js
-        ├── hooks/      useFetch.js
-        └── components/ CryptoTable.jsx · StockLookup.jsx
+
 ## API Endpoints
 GET /api/crypto/top?limit=10  Top N coins by market cap with 10 as a default limit
 GET /api/crypto/{coinId}     Single coin detail by CoinGecko ID (eg: bitcoin, ethereum)
