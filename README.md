@@ -1,7 +1,8 @@
 A full-stack live market dashboard that aggregates real-time cryptocurrency and stock data from public APIs. 
 Built with a Spring Boot backend (Java 21) and a React + Vite frontend.
-Live Link: coming soon
-API docs: coming soon
+
+## Live Link: coming soon
+
 
 ## Screenshots
 
