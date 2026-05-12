@@ -41,5 +41,13 @@ Stock Quote Tab
 - **GET /api/stocks/quote/{symbol}**   Real-time global quote (eg: AAPL, MSFT)
 - **GET /api/stocks/search?q={keyword}** Symbol search by company name or ticker
 
+## Getting Started
+1. (Initial set up) You will need to have the following dependencies = Spring Cache, Web, DevTools Caffeine, Lombok, Springdoc (OpenAPI), Starter Test
+2. Running the backend app from Terminal = ./mvnw spring-boot:run -Dmaven.test.skip=true
+3. To run the frontend start by navigating to the frontend folder n your Terminal = cd frontend
+4. Then install the library files and create the vite project = npm create vite@latest frontend and then npm install to install the files
+5. To run the react app = npm run dev
+6. To visualize the dashboard (make sure backend is running)= click and open the link http://localhost:5173
+
 
 
